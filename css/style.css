@@ -94,6 +94,7 @@ header {
   font-weight: bolder;
   transition: 0.5s ease-in-out;
   color: black;
+  z-index: 50;
 }
 .timeline-box:hover {
   color: #87bbe4;
@@ -429,12 +430,18 @@ body .detalle-text {
   font-size: 0.7rem;
   margin: 10px;
 }
+body .img-cover {
+  height: max-content;
+  width: max-content;
+  z-index: -50;
+}
 body .section-img {
   height: 750px;
   background-image: url("../images/analia-kalinec.jpg");
-  background-size: cover 102%;
+  background-size: cover 100%;
   background-repeat: no-repeat;
 }
+
 /* MIXINS */
 /*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
 /*USADOS PARA LAS CLASS: PARRAFOS Y GLOSARIO-TEXTO*/

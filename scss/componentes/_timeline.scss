@@ -29,6 +29,7 @@
             font-weight: bolder;
             transition: 0.5s ease-in-out;
             color: black;
+            z-index: 50;
             &:hover {
                 color: rgb(135,187,228);
                 background: rgb(51, 51, 51, 100%);
