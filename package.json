@@ -1,0 +1,19 @@
+{
+  "name": "analia-kalinec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomiTorres93/analia-kalinec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomiTorres93/analia-kalinec/issues"
+  },
+  "homepage": "https://github.com/TomiTorres93/analia-kalinec#readme"
+}
