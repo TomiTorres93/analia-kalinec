@@ -135,6 +135,15 @@ body {
                 justify-content: center;
                 }
 
+                .section-img {
+                    height: 750px;
+                    width: 100%;
+                    background-image: url('../images/analia-kalinec.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                
+                
+                }
       
         .section-recuadros {
             @extend %flexbox-row;
@@ -315,14 +324,7 @@ body {
 
     z-index: -50;
 }
-.section-img {
-    height: 750px;
-    background-image: url('../images/analia-kalinec.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 
-
-}
 }
 
 

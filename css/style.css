@@ -290,6 +290,13 @@ body .section-destacado {
   flex-direction: column;
   justify-content: center;
 }
+body .section-img {
+  height: 750px;
+  width: 100%;
+  background-image: url("../images/analia-kalinec.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 body .section-recuadros {
   height: 800px;
   justify-content: space-evenly;
@@ -434,12 +441,6 @@ body .img-cover {
   height: max-content;
   width: max-content;
   z-index: -50;
-}
-body .section-img {
-  height: 750px;
-  background-image: url("../images/analia-kalinec.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* MIXINS */
